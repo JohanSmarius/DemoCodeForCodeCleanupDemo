@@ -25,7 +25,7 @@ internal class Program
         foreach (var product in products)
         {
             int randomQuantity = new Random().Next(1, 5);
-            shoppingCartService.AddToBasket(product, randomQuantity);
+            shoppingCartService.AddToBasket(product, randomQuantity, DateTime.Today);
         }
 
         var totalMessage = string.Format("Total price in shopping cart: {0:C2}", shoppingCartService.TotalPrice);

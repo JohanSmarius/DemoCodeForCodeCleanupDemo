@@ -14,7 +14,7 @@ public class ShoppingCartService
         _totalPrice = 0;
         }
 
-        public void AddToBasket(Product product, int quantity)
+        public void AddToBasket(Product product, int quantity, DateTime date)
     {
             int customerId;
             int productId;
