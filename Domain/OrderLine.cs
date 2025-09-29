@@ -8,9 +8,9 @@ namespace Domain
 {
     public class OrderLine
     {
-        private int quantity;
+        int quantity;
 
-        public Order Order { get; set; }
+        Order Order { get; set; }
 
         public Product Product { get; set; }
 

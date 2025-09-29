@@ -8,7 +8,7 @@ namespace Domain
 {
     public class Order
     {
-        public Customer Customer { get; set; }
+        Customer Customer { get; set; }
 
         public List<OrderLine> OrderLines { get; set; } = new List<OrderLine>();
 
