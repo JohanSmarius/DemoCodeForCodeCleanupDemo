@@ -10,7 +10,7 @@ namespace Domain
     {
         private int quantity;
 
-        public Order MyProperty { get; set; }
+        public Order Order { get; set; }
 
         public Product Product { get; set; }
 
@@ -18,7 +18,7 @@ namespace Domain
 
         public OrderLine(Order order, Product product, int quantity)
         {
-            MyProperty = order;
+            Order = order;
             Product = product;
             Quantity = quantity;
         }
