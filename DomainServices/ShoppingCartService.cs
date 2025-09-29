@@ -2,7 +2,7 @@
 using System.Linq;
 using System;   
 
-namespace DomainServices
+namespace SomeNameSpace
 {
 public class ShoppingCartService
 {

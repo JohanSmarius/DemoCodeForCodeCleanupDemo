@@ -1,9 +1,9 @@
 ﻿using System;
 using Domain;
-using DomainServices;
 using System.Linq;
 using System.Collections.Generic;
 using System.Text;
+using SomeNameSpace;
 
 internal class Program
 {
