@@ -23,8 +23,7 @@ namespace Domain
         public decimal TotalPrice()
         {
             decimal total = 0;
-            foreach (var line in OrderLines)
-            {
+            foreach (var line in OrderLines) {            
                 total += line.Product.PriceWithVat * line.Quantity;
             }
             return total;
